@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    font-family: 'Goldman', cursive;
+    font-size: 1em;
+    margin: 0;
+  }
+a:hover {
+    color: blue;
+}
+
+.banner {
+    height: 100px;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("kuvat/banner.jpg");
+    height: 100%;
+    width: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    margin: 35px;
+    font-size: 2em;
+    text-align: left;
+    position: absolute;
+    left: 2%;
+    color: yellow;
+}
+
+.hero-text a {
+    font-weight: bold;
+    color: yellow;
+}
+
+.inner_box {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_box {
+    flex: 1;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.text_box h1 {
+    text-decoration: underline;
+    margin: 0;
+    font-size: 3em;
+}
+
+.text_box h2 {
+    margin: 0;
+}
+
+.bordered_box {
+    border-color: black;
+    border-style: inset;
+    margin: 20px;
+}
+
+/* NAV */
+nav ul {
+    margin: auto;
+  }
+  
+  nav li {
+  align-self: flex-start;
+  display:inline-block;
+  margin: 0px 5px
+  }
+  
+  nav li a {color: black;}
+
+footer {
+    background-color: black;
+    color: yellow;
+    margin-bottom: 0;
+}
+
+footer p{
+    padding-left: 40px;
+    margin-bottom: 0;
+  }
+
+@media (max-width: 768px)
+{
+    .outer_box{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .inner_box {
+    width: 100%;
+    flex:1;
+    flex-direction: column;
+    }
+
+    .text_box h2 {
+        font-size: 1.5em;
+    }
+
+    .text_box h1 {
+        font-size: 2em;
+    }
+}

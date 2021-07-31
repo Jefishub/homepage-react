@@ -1,0 +1,197 @@
+body, html {
+  font-family: 'Goldman', cursive;
+  font-size: 1em;
+  margin: 0;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+
+
+/* The hero image */
+.hero-box {
+height: 300px;
+display: flex;
+}
+
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("kuvat/banner.jpg");
+height: 100%;
+width: 100%;
+/* Position and center the image to scale nicely on all screens */
+background-position: left;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin-bottom: 20px;
+}
+
+/* Place text in the left of the image */
+.hero-text {
+margin-left: 20px;
+text-align: left;
+position: absolute;
+left: 2%;
+color: white;
+}
+
+/* laatikot */
+
+.inner_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a_ref {
+flex: 1;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+.container {
+position: relative;
+width: 99%;
+display: block;
+margin-top: 0.5%;
+}
+
+.otsikkotausta{
+background-color: black;
+width: auto;
+height: 300px;
+}
+
+.overlay {
+margin: auto;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #05495f;
+}
+
+.container:hover .overlay {
+opacity: 1;
+}
+
+.overlaytext {
+margin-top: 25px; 
+margin-left: 5%;
+text-align: left; 
+color: white;
+}
+
+.otsikko {
+font-size: 2em;
+color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.text_box {
+flex: 1;
+padding: 10px;
+width: 90%;
+margin: auto;
+margin-top: 10px
+}
+
+.text_box img{
+  max-width: 300px;
+}
+
+/* NAV */
+nav ul {
+  margin: auto;
+}
+
+nav li {
+align-self: flex-start;
+display:inline-block;
+margin: 0px 5px
+}
+
+nav li a {color: black;}
+
+footer {
+  background-color: black;
+  color: yellow;
+  margin-bottom: 0;
+}
+
+footer p{
+  padding-left: 40px;
+  margin-bottom: 0;
+}
+
+/* RESPONSIVE MEDIA SCETION 768px MAX */
+
+@media (max-width: 768px)
+{
+
+.outer_box{
+  display: flex;
+  flex-direction: column;
+}
+
+.inner_box {
+  flex:1;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+  padding: 0;
+  width: 100%;
+}
+
+
+.otsikkotausta{
+  height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.overlay {
+  display: none;
+}
+
+.overlaytext {
+  display: none;
+}
+
+.otsikko {
+    font-size: 1.5em;
+}
+}
+
+@media (max-width: 400px)
+{
+  .text_box img{
+    max-width: 200px;
+  }
+
+  .text_box h1{
+    font-size: 25px;
+  }
+}
+@media (max-width: 270px)
+{
+  .text_box h1{
+    font-size: 20px;
+  }
+}
