@@ -5,8 +5,8 @@ const listItemBullets = (item) => {
     return bullets
 }
 
-const listItems = (data) => {
-    return data.content.map((item, i) => {
+const listItems = (content) => {
+    return content.map((item, i) => {
         const bullets = listItemBullets(item)
         return (
           <div className="text_box" key={i}>
@@ -17,11 +17,11 @@ const listItems = (data) => {
       })
 }
 const bulletList = (data) => {
-    const header = <h2>{data.header}</h2>
-    const Items = listItems(data)
+    const { header, content } = data
+    const Items = listItems(content)
     return (
       <div>
-        {header}
+        <h2>{header}</h2>
         {Items}
       </div>
     )

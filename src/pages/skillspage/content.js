@@ -1,3 +1,8 @@
+import fin_flag from '../../images/flags/fin_flag.jpg'
+import swe_flag from '../../images/flags/swe_flag.jpg'
+import eng_flag from '../../images/flags/eng_flag.jpg'
+import fra_flag from '../../images/flags/fra_flag.jpg'
+
 const researcherSkills = {
     header: "Researcher Skills",
     content: [{
@@ -58,10 +63,10 @@ const developerSkills = {
 const languageSkills = {
     header: "Language skills",
     content: [
-    {name: "Finnish", level: "Native", imgsrc: "'../../images/fin_flag.jpg'"},
-    {name: "English", level: "Excellent", imgsrc: "'../../images/eng_flag.jpg'"},
-    {name: "Swedish", level: "Poor", imgsrc: "'../../images/swe_flag.jpg'"},
-    {name: "French", level: "Basics", imgsrc: "'../../images/fra_flag.jpg'"},
+    {name: "Finnish", level: "Native", imgsrc: fin_flag},
+    {name: "English", level: "Excellent", imgsrc: eng_flag},
+    {name: "Swedish", level: "Poor", imgsrc: swe_flag},
+    {name: "French", level: "Basics", imgsrc: fra_flag},
 ]}
 
 export { researcherSkills, developerSkills, languageSkills }

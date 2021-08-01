@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../../css/styles.css';
 
-import bulletList from '../../components/bulletList'
+import bulletList from '../../components/bulletList/Basic'
 
 import { school, coursesAndTraining, certificates } from './content'
 
