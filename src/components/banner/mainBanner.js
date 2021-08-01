@@ -7,9 +7,9 @@ function CategoryBox() {
         color: "yellow"
     }
     return (
-        <div class="hero-box">
-            <div class="hero-image">
-                <div class="hero-text">
+        <div className="hero-box">
+            <div className="hero-image">
+                <div className="hero-text">
                     <h1 className="banner-header"><u>Jere Manni</u></h1>
                     <p>Master of <span style={banner_text_style}>Physics</span></p>
                     <p><span style={banner_text_style}>Expert</span> in Materials Science</p>

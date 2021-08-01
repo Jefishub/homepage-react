@@ -1,13 +1,39 @@
 import React from 'react';
 
-function CategoryBox() {
+function CategoryBox(content) {
+    const { header, listItems, url } = content.content
+    const Items = () => {
+        const listContents = listItems.map((listItem) => {
+            const item = listItem.item
+            const bullets = listItem.bullets.map((bullet) => {
+                return <li>{bullet}</li>
+            })
+            return (
+                <>
+                    <strong>{item}</strong>
+                    <ul>
+                        {bullets}
+                    </ul>
+                </>
+            )
+        })
+
+        return listContents
+    }
 
     return (
-        <div className="category-box">
-            <h1>
-                Test
-            </h1>
-        </div>
+        <a href={url} className="a_ref">
+                <div className="container">
+                    <div className="otsikkotausta">
+                        <div className="otsikko">{header}</div>
+                    </div>
+                    <div className="overlay">
+                        <div className="overlaytext">
+                            {Items()}
+                        </div>
+                    </div>
+                </div>
+            </a>
     )
 }
 
