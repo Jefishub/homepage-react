@@ -1,11 +1,12 @@
 import React from 'react';
+import '../../css/bannerStyle.css'
 
 function SecondaryBanner() {
 
     return (
-        <div className="banner">
-            <div className="hero-image">
-                <div className="hero-text banner-header"><a href="/">Jere Manni</a></div>
+        <div className="banner-box-secondary">
+            <div className="banner-image">
+                <div className="banner-text banner-header"><a href="/">Jere Manni</a></div>
             </div>
         </div>
     )

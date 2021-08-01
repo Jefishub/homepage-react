@@ -1,14 +1,14 @@
 import React from 'react';
-import './style.css'
+import '../../css/bannerStyle.css'
 
 function MainBanner() {
     const banner_text_style = {
         color: "yellow"
     }
     return (
-        <div className="hero-box">
-            <div className="hero-image">
-                <div className="hero-text">
+        <div className="banner-box">
+            <div className="banner-image">
+                <div className="banner-text">
                     <h1 className="banner-header"><u>Jere Manni</u></h1>
                     <p><span style={banner_text_style}>Master</span> of Physics</p>
                     <p>Full-stack<span style={banner_text_style}> Developer</span></p>
