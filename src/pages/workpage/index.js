@@ -1,10 +1,18 @@
 import React from 'react';
 import '../../css/styles.css';
 
+import workHistoryList from '../../components/bulletList/WorkHistory'
+import bulletList from '../../components/bulletList/Basic'
+
+import { workHistory, publications, secondaryOccupations, responsibilities } from './content'
+
 function Work() {
   return (
-    <div className="App">
-      <p>Work</p>
+    <div>
+      {workHistoryList(workHistory)}
+      {bulletList(publications)}
+      {bulletList(secondaryOccupations)}
+      {bulletList(responsibilities)}
     </div>
   );
 }

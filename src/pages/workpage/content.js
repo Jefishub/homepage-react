@@ -54,18 +54,20 @@ const workHistory = {
         ]}]},
 
         {name: "University of Turku - 2009",
-        title: "Summer trainee at Laboratory of Materials Science",
-        bullets: [
-            {start: "", end: "Sample handling"},
-            {start: "", end: "XPS-measurements"},
-            {start: "", end: "AFM-measurements"},
-        ]},
+        roles: [
+            {title: "Summer trainee at Laboratory of Materials Science",
+            bullets: [
+                {start: "", end: "Sample handling"},
+                {start: "", end: "XPS-measurements"},
+                {start: "", end: "AFM-measurements"},
+        ]}]},
 
         {name: "Posti - summer 2007,2008,2010",
-        title: "Summer trainee at Laboratory of Materials Science",
-        bullets: [
-            {start: "", end: "Newspaper deliver, summer helper"},
-        ]},
+        roles: [
+            {title: "Summer trainee at Laboratory of Materials Science",
+            bullets: [
+                {start: "", end: "Newspaper deliver, summer helper"},
+        ]}]},
 ]}
 
 const publications = {
@@ -94,7 +96,7 @@ const publications = {
         ]},
 ]}
 
-const publications = {
+const secondaryOccupations = {
     header: "Secondary Occupations",
     content: [
         {name: "",
@@ -113,3 +115,5 @@ const responsibilities = {
             "Member of the board - As Oy Nummenkorva, 2017 -> ",
         ]},
 ]}
+
+export { workHistory, publications, secondaryOccupations, responsibilities }
