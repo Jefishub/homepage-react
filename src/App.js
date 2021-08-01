@@ -13,9 +13,19 @@ import Skills from './pages/skillspage/'
 import Work from './pages/workpage/'
 import NotFoundPage from './pages/notfoundpage/'
 
+import MainBanner from './components/banner/mainBanner'
+import SecondaryBanner from './components/banner/secondaryBanner'
+
+import './css/style.css'
+
 function App() {
   return (
     <Router>
+      {/* Banner component */}
+      <Switch>
+        <Route exact path="/" component={MainBanner} />
+        <Route component={SecondaryBanner} />
+      </Switch>
       <Switch>
         {/* Page components */}
         <Route path="/education" component={Education} />
@@ -24,6 +34,7 @@ function App() {
         <Route exact path="/" component={Homepage} />
         <Route component={NotFoundPage} />
       </Switch>
+      {/* Footer component */}
     </Router>
   );
 }

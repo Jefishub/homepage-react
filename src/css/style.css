@@ -19,7 +19,7 @@ display: flex;
 
 .hero-image {
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("kuvat/banner.jpg");
+background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../images/banner.jpg");
 height: 100%;
 width: 100%;
 /* Position and center the image to scale nicely on all screens */
