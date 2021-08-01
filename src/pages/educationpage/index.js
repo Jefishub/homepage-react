@@ -7,7 +7,6 @@ import { school, coursesAndTraining, certificates } from './content'
 function Education() {
 
   const education = (content) => {
-    console.log(content)
     const listItems = content.map((item, i) => {
       const header = <h2>{item.header}</h2>
       const bullets = item.bullets.map((bullet, i) => {
