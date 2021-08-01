@@ -16,6 +16,8 @@ import NotFoundPage from './pages/notfoundpage/'
 import MainBanner from './components/banner/mainBanner'
 import SecondaryBanner from './components/banner/secondaryBanner'
 
+import Navigation from './components/navigation'
+
 import './css/style.css'
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
         <Route component={NotFoundPage} />
       </Switch>
       {/* Footer component */}
+      <Route component={Navigation} />
     </Router>
   );
 }
