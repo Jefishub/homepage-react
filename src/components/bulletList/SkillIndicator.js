@@ -1,7 +1,7 @@
 const listItemIndicators = (bullets) => {
   return bullets.map((indicator, i) => {
     return (
-      <div className="container">
+      <div className="container" key={i}>
         <div className={`skills ${indicator.level}`}>
           {indicator.items}
         </div>
