@@ -1,8 +1,7 @@
 import React from 'react';
-import './style.css';
+import './style.css'
 
-
-function CategoryBox() {
+function MainBanner() {
     const banner_text_style = {
         color: "yellow"
     }
@@ -23,4 +22,4 @@ function CategoryBox() {
     )
 }
 
-export default CategoryBox;
+export default MainBanner;
