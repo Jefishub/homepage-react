@@ -3,7 +3,7 @@ import React from 'react';
 function Navigation() {
 
     return (
-        <div className="inner_box">    
+        <div className="navigation-box">    
             <nav id="paavalikko">
                 <ul>
                     <li><a href="/">Home</a></li>

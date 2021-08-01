@@ -23,9 +23,9 @@ function CategoryBox(content) {
 
     return (
         <a href={url} className="a_ref">
-                <div className="container">
-                    <div className="otsikkotausta">
-                        <div className="otsikko">{header}</div>
+                <div className="category-container">
+                    <div className="header-background">
+                        <div className="category-header">{header}</div>
                     </div>
                     <div className="overlay">
                         <div className="overlaytext">

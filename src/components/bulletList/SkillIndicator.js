@@ -1,3 +1,5 @@
+import '../../css/indicator.css'
+
 const listItemIndicators = (bullets) => {
   return bullets.map((indicator, i) => {
     return (
@@ -14,7 +16,7 @@ const listItems = (content) => {
     const { name, bullets } = item
       const indicators = listItemIndicators(bullets)
       return (
-        <div className="text_box" key={i}>
+        <div className="text-box" key={i}>
           <h2>{name}</h2>
           {indicators}
         </div>

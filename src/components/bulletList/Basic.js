@@ -9,7 +9,7 @@ const listItems = (content) => {
     return content.map((item, i) => {
         const bullets = listItemBullets(item)
         return (
-          <div className="text_box" key={i}>
+          <div className="text-box" key={i}>
             <h2>{item.name}</h2>
             {bullets}
           </div>

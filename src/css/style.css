@@ -10,55 +10,30 @@ a:hover {
   color: blue;
 }
 
-
-/* The hero image */
-.hero-box {
-height: 300px;
-display: flex;
-}
-
-.hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../images/banner.jpg");
-height: 100%;
-width: 100%;
-/* Position and center the image to scale nicely on all screens */
-background-position: left;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-margin-bottom: 20px;
-}
-
-/* Place text in the left of the image */
-.hero-text {
-margin-left: 20px;
-text-align: left;
-position: absolute;
-left: 2%;
-color: white;
-}
-
-/* laatikot */
-
-.inner_box {
+/* navigation */
+.navigation-box {
   display: flex;
   justify-content: space-between;
 }
 
-.a_ref {
+/* laatikot */
+.category-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-section .a_ref {
 flex: 1;
 }
 
-/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
-.container {
+.category-container {
 position: relative;
 width: 99%;
 display: block;
-margin-top: 0.5%;
+margin-top: 8px;
 }
 
-.otsikkotausta{
+.header-background{
 background-color: black;
 width: auto;
 height: 300px;
@@ -77,7 +52,7 @@ transition: .5s ease;
 background-color: #05495f;
 }
 
-.container:hover .overlay {
+.category-container:hover .overlay {
 opacity: 1;
 }
 
@@ -88,7 +63,7 @@ text-align: left;
 color: white;
 }
 
-.otsikko {
+.category-header {
 font-size: 2em;
 color: white;
 position: absolute;
@@ -100,7 +75,7 @@ transform: translate(-50%, -50%);
 text-align: center;
 }
 
-.text_box {
+.text-box {
 flex: 1;
 padding: 10px;
 width: 90%;
@@ -108,7 +83,7 @@ margin: auto;
 margin-top: 10px
 }
 
-.text_box img{
+.text-box img{
   max-width: 300px;
 }
 
@@ -141,23 +116,23 @@ footer p{
 @media (max-width: 768px)
 {
 
-.outer_box{
+.outer-box{
   display: flex;
   flex-direction: column;
 }
 
-.inner_box {
+.inner-box {
   flex:1;
   flex-direction: column;
 }
-.container {
+.category-ontainer {
   flex: 1;
   padding: 0;
   width: 100%;
 }
 
 
-.otsikkotausta{
+.header-background{
   height: 100px;
   top: 0;
   bottom: 0;
@@ -174,24 +149,24 @@ footer p{
   display: none;
 }
 
-.otsikko {
+.header {
     font-size: 1.5em;
 }
 }
 
 @media (max-width: 400px)
 {
-  .text_box img{
+  .text-box img{
     max-width: 200px;
   }
 
-  .text_box h1{
+  .text-box h1{
     font-size: 25px;
   }
 }
 @media (max-width: 270px)
 {
-  .text_box h1{
+  .text-box h1{
     font-size: 20px;
   }
 }

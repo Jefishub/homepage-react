@@ -1,0 +1,51 @@
+/* The banner image */
+.banner-box {
+  height: 300px;
+  display: flex;
+}
+
+.banner-box-secondary {
+  height: 100px;
+  display: flex;
+}
+
+.banner-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../images/banner.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 20px;
+  }
+  
+
+.banner-text {
+  text-align: left;
+  position: absolute;
+  left: 2%;
+}
+
+.banner-box .banner-image .banner-text {
+  margin-left: 20px;
+  color: white;
+}
+
+.banner-box-secondary .banner-image .banner-text {
+  margin: 35px;
+  font-size: 2em;
+  color: yellow;
+}
+
+.banner-header {
+  color: yellow;
+  margin: 0.5em;
+  margin-left: 0;
+}
+
+.banner-box-secondary .banner-image .banner-text a {
+  font-weight: bold;
+  color: yellow;
+}

@@ -4,7 +4,7 @@ function RecommendationBox(content) {
     const { header, quote, url, signature } = content.content
 
     return (
-        <div className="text_box">
+        <div className="text-box">
             <h1>{header}</h1>
             <div style={{maxWidth: "1000px"}}>
                 <p>

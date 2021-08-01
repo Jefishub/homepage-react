@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../css/styles.css';
 
 import workHistoryList from '../../components/bulletList/WorkHistory'
 import bulletList from '../../components/bulletList/Basic'

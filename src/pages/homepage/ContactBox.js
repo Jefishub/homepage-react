@@ -8,7 +8,7 @@ function ContactBox(content) {
     })
 
     return (
-        <div className="text_box">
+        <div className="text-box">
             <div className="container">
                 <h1>{header}</h1>
                 <ul style={{paddingLeft: "15px"}}>

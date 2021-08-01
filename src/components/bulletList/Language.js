@@ -3,7 +3,7 @@ const listItems = (content) => {
         const { name, level, imgsrc } = item
         const alternative = name + " flag"
         return (
-          <div className="text_box" key={i}>
+          <div className="text-box" key={i}>
             <img src={imgsrc} alt={alternative}></img>
             <p><strong>{item.name}</strong> - {level}</p>
           </div>

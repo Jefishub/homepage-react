@@ -24,7 +24,7 @@ const companyItems = (content) => {
       const { name, roles } = company
       const companyRoles = listCompanyRoles(roles)
       return (
-        <div className="text_box" key={i}>
+        <div className="text-box" key={i}>
           <h2>{name}</h2>
             {companyRoles}
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/styles.css';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,8 +18,6 @@ import SecondaryBanner from './components/banner/secondaryBanner'
 
 import Navigation from './components/navigation'
 import Footer from './components/footer'
-
-import './css/style.css'
 
 function App() {
   return (
