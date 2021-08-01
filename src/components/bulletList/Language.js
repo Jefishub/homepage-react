@@ -1,10 +1,5 @@
-/* header: "Language skills",
-content: [
-{name: "Finnish", level: "Native", imgsrc: "'../../images/fin_flag.jpg'"}, */
-
 const listItems = (content) => {
     return content.map((item, i) => {
-        console.log(item)
         const { name, level, imgsrc } = item
         const alternative = name + " flag"
         return (

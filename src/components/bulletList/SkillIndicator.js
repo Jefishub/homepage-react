@@ -22,7 +22,7 @@ const listItems = (content) => {
     })
 }
 
-const bulletList = (data) => {
+const indicatorList = (data) => {
   const { header, content } = data
     const items = listItems(content)
     return (
@@ -33,4 +33,4 @@ const bulletList = (data) => {
     )
   }
 
-export default bulletList
+export default indicatorList
