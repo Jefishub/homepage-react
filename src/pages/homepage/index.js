@@ -1,8 +1,8 @@
 import React from 'react';
-import CategoryBox from '../components/CategoryBox';
-import '../css/styles.css';
+import CategoryBox from './CategoryBox';
+import '../../css/styles.css';
 
-function App() {
+function Homepage() {
   return (
     <div className="App">
       <p>My homepage</p>
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;

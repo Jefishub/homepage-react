@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/styles.css';
+import '../../css/styles.css';
 
-function App() {
+function NotFoundPage() {
   return (
     <div className="App">
       <p>Page not found!</p>
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default NotFoundPage;

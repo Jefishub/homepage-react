@@ -1,5 +1,4 @@
 import React from 'react';
-import CategoryBox from './components/CategoryBox';
 import './css/styles.css';
 import {
   BrowserRouter as Router,
@@ -8,16 +7,17 @@ import {
   Link
 } from "react-router-dom";
 
-import Homepage from './pages/home'
-import Education from './pages/education'
-import Skills from './pages/skills'
-import Work from './pages/work'
-import NotFoundPage from './pages/NotFoundPage'
+import Homepage from './pages/homepage/'
+import Education from './pages/educationpage/'
+import Skills from './pages/skillspage/'
+import Work from './pages/workpage/'
+import NotFoundPage from './pages/notfoundpage/'
 
 function App() {
   return (
     <Router>
       <Switch>
+        {/* Page components */}
         <Route path="/education" component={Education} />
         <Route path="/skills" component={Skills} />
         <Route path="/work" component={Work} />
