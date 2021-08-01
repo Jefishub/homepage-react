@@ -17,6 +17,7 @@ import MainBanner from './components/banner/mainBanner'
 import SecondaryBanner from './components/banner/secondaryBanner'
 
 import Navigation from './components/navigation'
+import Footer from './components/footer'
 
 import './css/style.css'
 
@@ -38,6 +39,7 @@ function App() {
       </Switch>
       {/* Footer component */}
       <Route component={Navigation} />
+      <Route component={Footer} />
     </Router>
   );
 }
