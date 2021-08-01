@@ -8,6 +8,8 @@ import { education, skills, work } from './CategoryContent';
 import { recommendation } from './RecommendationContent';
 import { contact } from './ContactContent'
 
+import jere from '../../images/Jere.jpg'
+
 function Homepage() {
 
   return (
@@ -19,6 +21,9 @@ function Homepage() {
       </div>
       <RecommendationBox content={recommendation} />
       <ContactBox content={contact} />
+      <div className="text_box">    
+          <img src={jere} alt="Me posing in a picture =)"></img>
+      </div>
     </div>
   );
 }
