@@ -1,6 +1,6 @@
 const listItemBullets = (item) => {
     const bullets = item.bullets.map((bullet, i) => {
-        return <p key={i}>{bullet}</p>
+        return <div key={i}>{bullet}</div>
     })
     return bullets
 }
