@@ -13,7 +13,7 @@ const skills = {
     header: "Skills",
     listItems: [
         {item: "Researcher skills", bullets: ["SEM-EDS", "XPS (ESCA)", "Broad Ion Beam", "etc..."]},
-        {item: "Developer skills", bullets: ["Python, Javascript, Typescript...", "Flask, React...", "SQL, elasticsearch, neo4j", "VSCode, Unity, Linux..."]}
+        {item: "Developer skills", bullets: ["Python, Javascript, Typescript...", "Flask, React...", "SQL, elasticsearch, neo4j"]}
     ]
 }
 
@@ -21,9 +21,9 @@ const work = {
     url: "/work",
     header: "Work history",
     listItems: [
-        {item: "Microsoft (2019)", bullets: ["Laboratory engineer"]},
-        {item: "Top Analytica (2011-2019)", bullets: ["Team Leader in asbestos analysis", "Researcher", "Master Thesis Work"]},
-        {item: "University of Turku (2009)", bullets: ["Summer trainee"]}
+        {item: "Inbot (2021)", bullets: ["Junior Full-Stack Developer"]},
+        {item: "Microsoft (2019)", bullets: ["Laboratory engineer (HoloLens R&D)"]},
+        {item: "Top Analytica (2011-2019)", bullets: ["Team Leader in asbestos analysis", "Researcher", "Master Thesis Work"]}
     ]
 }
 
