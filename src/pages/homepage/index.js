@@ -1,11 +1,11 @@
 import React from 'react';
-import CategoryBox from './CategoryBox';
-import RecommendationBox from './RecommendationBox';
-import ContactBox from './ContactBox'
+import CategoryBox from './Category/CategoryBox';
+import RecommendationBox from './Recommendation/RecommendationBox';
+import ContactBox from './Contact/ContactBox'
 
-import { education, skills, work } from './CategoryContent';
-import { recommendation } from './RecommendationContent';
-import { contact } from './ContactContent'
+import { education, skills, work } from './Category/CategoryContent';
+import { recommendation } from './Recommendation/RecommendationContent';
+import { contact } from './Contact/ContactContent'
 
 import jere from '../../images/Jere.jpg'
 
@@ -22,7 +22,7 @@ function Homepage() {
       <RecommendationBox content={recommendation} />
       <ContactBox content={contact} />
       <div className="text-box">    
-          <img src={jere} alt="Me posing in a picture =)"></img>
+          <img src={jere} alt="Me posing =)"></img>
       </div>
     </main>
   );
