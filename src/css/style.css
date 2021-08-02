@@ -10,12 +10,6 @@ a:hover {
   color: blue;
 }
 
-/* navigation */
-.navigation-box {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* laatikot */
 .category-section {
   display: flex;
@@ -87,7 +81,22 @@ margin-top: 10px
   max-width: 300px;
 }
 
-/* NAV */
+.bordered-box {
+  border-color: black;
+  border-style: inset;
+  margin: 20px;
+}
+/* navigation */
+.navigation-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
 nav ul {
   margin: auto;
 }
@@ -99,6 +108,8 @@ margin: 0px 5px
 }
 
 nav li a {color: black;}
+
+/* Footer section */
 
 footer {
   background-color: black;
@@ -115,7 +126,13 @@ footer p{
 
 @media (max-width: 768px)
 {
-
+nav ul{
+  display: flex;
+  flex-direction: column;
+}
+.category-section {
+  flex-direction: column;
+}
 .outer-box{
   display: flex;
   flex-direction: column;
@@ -125,7 +142,7 @@ footer p{
   flex:1;
   flex-direction: column;
 }
-.category-ontainer {
+.category-container {
   flex: 1;
   padding: 0;
   width: 100%;

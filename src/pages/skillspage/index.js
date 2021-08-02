@@ -10,9 +10,9 @@ function Skills() {
 
   return (
     <div>
-      {bulletList(researcherSkills)}
-      {skillList(developerSkills)}
-      {languageList(languageSkills)}
+      <div className="bordered-box">{bulletList(researcherSkills)}</div>
+      <div className="bordered-box">{skillList(developerSkills)}</div>
+      <div className="bordered-box">{languageList(languageSkills)}</div>
     </div>
   );
 }

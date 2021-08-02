@@ -7,10 +7,10 @@ import { school, coursesAndTraining, certificates } from './content'
 function Education() {
 
   return (
-    <div className="bordered_box">
-      {bulletList(school)}
-      {bulletList(coursesAndTraining)}
-      {bulletList(certificates)}
+    <div>
+      <div className="bordered-box">{bulletList(school)}</div>
+      <div className="bordered-box">{bulletList(coursesAndTraining)}</div>
+      <div className="bordered-box">{bulletList(certificates)}</div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import '../../css/indicator.css'
 const listItemIndicators = (bullets) => {
   return bullets.map((indicator, i) => {
     return (
-      <div className="container" key={i}>
+      <div className="skills-container" key={i}>
         <div className={`skills ${indicator.level}`}>
           {indicator.items}
         </div>
