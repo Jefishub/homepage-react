@@ -11,7 +11,7 @@ function ContactBox(content) {
         <div className="text-box">
             <div className="category-container">
                 <h1>{header}</h1>
-                <ul style={{paddingLeft: "15px"}}>
+                <ul>
                     {contactInformation}
                 </ul>
             </div>
