@@ -20,8 +20,8 @@ const bulletList = (data) => {
     const { header, content } = data
     const Items = listItems(content)
     return (
-      <div>
-        <h2>{header}</h2>
+      <div className="text-box">
+        <h1>{header}</h1>
         {Items}
       </div>
     )

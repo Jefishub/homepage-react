@@ -28,8 +28,8 @@ const indicatorList = (data) => {
   const { header, content } = data
     const items = listItems(content)
     return (
-      <div>
-        <h2>{header}</h2>
+      <div className="text-box">
+        <h1>{header}</h1>
         {items}
       </div>
     )

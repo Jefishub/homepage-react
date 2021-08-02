@@ -35,7 +35,7 @@ const workHistoryList = (data) => {
     const { header, content } = data
     const Items = companyItems(content)
     return (
-      <div>
+      <div className="text-box">
         <h1>{header}</h1>
         {Items}
       </div>

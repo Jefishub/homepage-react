@@ -14,8 +14,9 @@ const school = {
         {name: "University of Turku (2005 - 2012)",
         bullets: [
             "Master of Science (physics)",
-            "Main: Materials Science",
-            "Minor: Mathemathics, Chemisty, IT"
+            "Master's thesis: The use of Broad Ion Beam (BIB) in microanalytical sample preparation",
+            "Main Subject: Materials Science",
+            "Secondary Subjects: Mathemathics, Chemisty, IT"
         ]},
         {name: "Kastu High School, Turku (2002 - 2005)",
         bullets: [
