@@ -3,6 +3,8 @@
 .skills-container {
   width: 100%;
   background-color: #ddd;
+  border: solid black 1px;
+  margin: 4px;
 }
 
 .skills {
