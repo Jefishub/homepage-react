@@ -28,9 +28,9 @@ function App() {
       </Switch>
       <Switch>
         {/* Page components */}
+        <Route path="/work" component={Work} />
         <Route path="/education" component={Education} />
         <Route path="/skills" component={Skills} />
-        <Route path="/work" component={Work} />
         <Route exact path="/" component={Homepage} />
         <Route component={NotFoundPage} />
       </Switch>
