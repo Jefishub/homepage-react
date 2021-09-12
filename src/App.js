@@ -18,8 +18,6 @@ import SecondaryBanner from './components/banner/secondaryBanner'
 import Navigation from './components/navigation'
 import Footer from './components/footer'
 
-const ROUTE_BASE = "jeremanni-a37c0.web.app"
-
 function App() {
   return (
     <Router>
@@ -30,9 +28,9 @@ function App() {
       </Switch>
       <Switch>
         {/* Page components */}
-        <Route path={ROUTE_BASE + "/work"} component={Work} />
-        <Route path={ROUTE_BASE + "/education"} component={Education} />
-        <Route path={ROUTE_BASE + "/skills"} component={Skills} />
+        <Route path="/work" component={Work} />
+        <Route path="/education" component={Education} />
+        <Route path="/skills" component={Skills} />
         <Route exact path="/" component={Homepage} />
         <Route component={NotFoundPage} />
       </Switch>
