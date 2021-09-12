@@ -13,7 +13,7 @@ const skills = {
     header: "Skills",
     listItems: [
         {item: "Researcher skills", bullets: ["SEM-EDS", "XPS (ESCA)", "Broad Ion Beam", "etc..."]},
-        {item: "Developer skills", bullets: ["Python, Javascript, Typescript...", "Flask, React...", "SQL, elasticsearch, neo4j"]}
+        {item: "Developer skills", bullets: ["Frontend: Java/Typescript, HTML, CSS + React", "Backend: Python + Flask", "Database: SQL, elasticsearch, neo4j"]}
     ]
 }
 
