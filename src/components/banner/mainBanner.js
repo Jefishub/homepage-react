@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../css/bannerStyle.css'
 
-function MainBanner() {
+const MainBanner = () => {
     const banner_text_style = {
         color: "yellow"
     }

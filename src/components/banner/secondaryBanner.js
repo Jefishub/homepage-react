@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../css/bannerStyle.css'
 
-function SecondaryBanner() {
+const SecondaryBanner = () => {
 
     return (
         <div className="banner-box-secondary">

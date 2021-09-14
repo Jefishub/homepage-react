@@ -6,7 +6,7 @@ import skillList from '../../components/bulletList/SkillIndicator'
 
 import { researcherSkills, developerSkills, languageSkills } from './content'
 
-function Skills() {
+const Skills = () => {
 
   return (
     <div>

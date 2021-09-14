@@ -9,7 +9,7 @@ import { contact } from './Contact/ContactContent'
 
 import jere from '../../images/Jere.jpg'
 
-function Homepage() {
+const Homepage = () => {
 
   return (
     <main>

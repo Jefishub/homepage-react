@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CategoryBox(content) {
+const CategoryBox = (content) => {
     const { header, listItems, url } = content.content
     const Items = () => {
         const listContents = listItems.map((listItem, i) => {

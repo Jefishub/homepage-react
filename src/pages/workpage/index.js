@@ -5,7 +5,7 @@ import bulletList from '../../components/bulletList/Basic'
 
 import { workHistory, publications, secondaryOccupations, responsibilities } from './content'
 
-function Work() {
+const Work = () => {
   return (
     <div>
       <div className="bordered-box">{workHistoryList(workHistory)}</div>

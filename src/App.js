@@ -18,7 +18,7 @@ import SecondaryBanner from './components/banner/secondaryBanner'
 import Navigation from './components/navigation'
 import Footer from './components/footer'
 
-function App() {
+const App = () => {
   return (
     <Router>
       {/* Banner component */}

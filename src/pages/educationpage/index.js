@@ -4,7 +4,7 @@ import bulletList from '../../components/bulletList/Basic'
 
 import { school, coursesAndTraining, certificates } from './content'
 
-function Education() {
+const Education = () => {
 
   return (
     <div>
