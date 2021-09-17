@@ -4,7 +4,6 @@ import RecommendationBox from './Recommendation';
 import ContactBox from './Contact'
 
 import { education, skills, work } from './Category/CategoryContent';
-import { recommendation } from './Recommendation/RecommendationContent';
 import { contact } from './Contact/ContactContent'
 
 import jere from '../../images/Jere.jpg'
@@ -18,7 +17,7 @@ const Homepage = () => {
         <CategoryBox content={education} />
         <CategoryBox content={skills} />
       </div>
-      <RecommendationBox content={recommendation} />
+      <RecommendationBox />
       <ContactBox content={contact} />
       <div className="text-box">    
           <img src={jere} alt="Me posing =)"></img>
