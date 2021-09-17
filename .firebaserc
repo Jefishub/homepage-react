@@ -1,7 +1,8 @@
 {
   "projects": {
     "default": "jeremanni-a37c0",
-    "homepage-react": "homepage-jeremanni"
+    "homepage-react": "homepage-jeremanni",
+    "jeremanni.info": "jeremanni-a37c0"
   },
   "targets": {}
 }
