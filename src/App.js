@@ -13,10 +13,8 @@ import Work from './pages/workpage/'
 import NotFoundPage from './pages/notfoundpage/'
 
 import MainBanner from './components/banner/mainBanner'
-import SecondaryBanner from './components/banner/secondaryBanner'
-
-import Navigation from './components/navigation'
 import Footer from './components/footer'
+import NavBar from './components/navbar'
 
 const App = () => {
   return (
@@ -24,7 +22,7 @@ const App = () => {
       {/* Banner component */}
       <Switch>
         <Route exact path="/" component={MainBanner} />
-        <Route component={SecondaryBanner} />
+        <Route component={NavBar} />
       </Switch>
       <Switch>
         {/* Page components */}
@@ -35,7 +33,6 @@ const App = () => {
         <Route component={NotFoundPage} />
       </Switch>
       {/* Footer component */}
-      <Route component={Navigation} />
       <Route component={Footer} />
     </Router>
   );

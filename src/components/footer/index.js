@@ -7,7 +7,7 @@ function Footer() {
         <footer>
             <p>
                 Author: Jere Manni <br></br>
-                Deployed with <a href="https://firebase.google.com/" style={{color: "yellow"}}>Firebase</a>
+                Created with <a href="https://github.com/Jefishub/homepage-react" style={{color: "yellow"}}>React</a>, Deployed with <a href="https://firebase.google.com/" style={{color: "yellow"}}>Firebase</a>
             </p>
         </footer>
     )
