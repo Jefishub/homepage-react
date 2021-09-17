@@ -2,9 +2,9 @@ const education = {
     url: "/education",
     header: "Education",
     listItems: [
-      {item: "University of Turku", bullets: ["Master of Physics (2012)"]},
-      {item: "Haaga-Helia University of Applied Sciences", bullets: ["Bachelor of Business Administration (Ongoing)"]},
-      {item: "Taitotalo", bullets: ["Vocational Qualification (2021)"]}
+        {item: "Haaga-Helia University of Applied Sciences, 2020 - (2022)", bullets: ["Bachelor of Business Administration (Ongoing)"]},
+        {item: "Taitotalo, 2020 - 2021", bullets: ["Vocational Qualification"]},
+        {item: "University of Turku, 2005 - 2012", bullets: ["Master of Physics"]}
     ]
   }
 
@@ -12,8 +12,8 @@ const skills = {
     url: "/skills",
     header: "Skills",
     listItems: [
+        {item: "Developer skills", bullets: ["Frontend: Java/Typescript, HTML, CSS + React", "Backend: Python + Flask", "Database: SQL, elasticsearch, neo4j"]},
         {item: "Researcher skills", bullets: ["SEM-EDS", "XPS (ESCA)", "Broad Ion Beam", "etc..."]},
-        {item: "Developer skills", bullets: ["Frontend: Java/Typescript, HTML, CSS + React", "Backend: Python + Flask", "Database: SQL, elasticsearch, neo4j"]}
     ]
 }
 
