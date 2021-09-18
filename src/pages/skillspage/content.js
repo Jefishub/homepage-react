@@ -3,6 +3,22 @@ import swe_flag from '../../images/flags/swe_flag.jpg'
 import eng_flag from '../../images/flags/eng_flag.jpg'
 import fra_flag from '../../images/flags/fra_flag.jpg'
 
+const generalSkills = {
+    header: "General Skills",
+    content: [{
+        name: "",
+        bullets: [
+            "Team Player",
+            "Project Working",
+            "Project Management",
+            "Problem Solving",
+            "Communication",
+            "Team Leading",
+            "Marketing",
+            "Teaching",  
+        ]},
+]}
+
 const researcherSkills = {
     header: "Researcher Skills",
     content: [{
@@ -26,7 +42,7 @@ const researcherSkills = {
         {
         name: "Laboratory working",
         bullets: [
-            "10 year experience in laboratory environment",
+            "9 year experience in laboratory environment",
             "Cleanroom laboratory working",
             "Sample handling and preparation methods",
             "Equipment maintenance & calibration",
@@ -40,7 +56,6 @@ const developerSkills = {
         name: "Programming",
         bullets: [
             {items: "Python, Javascript, Typescript", level: "good"},
-            {items: "React, Flask", level: "good"},
             {items: "SQL, Neo4j", level: "avg"},
             {items: "C++,C,C#,Java,", level: "basic"}, 
         ]},
@@ -69,4 +84,4 @@ const languageSkills = {
     {name: "French", level: "Basics", imgsrc: fra_flag},
 ]}
 
-export { researcherSkills, developerSkills, languageSkills }
+export { generalSkills, researcherSkills, developerSkills, languageSkills }

@@ -1,3 +1,5 @@
+/* The css file is a bit mess, and  I have not have time yet to redo styles yet */
+
 body, html {
   font-family: 'Goldman', cursive;
   font-size: 1em;
@@ -88,6 +90,27 @@ left: 50%;
 -ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 text-align: center;
+}
+
+.responsive-flex-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-text-box {
+  max-width: 540px;
+  margin-right: 32px;
+}
+
+.profile-header-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-icons {
+  margin-left: 32px;
+  display: flex;
+  align-items: center
 }
 
 .text-box {
@@ -208,6 +231,10 @@ footer p{
   }
   #section-right {
     margin-left: 0px
+  }
+
+  .responsive-flex-box {
+    flex-direction: column;
   }
 }
 

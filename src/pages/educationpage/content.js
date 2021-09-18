@@ -1,10 +1,10 @@
 const school = {
     header: "Education",
     content: [
-        {name: "Haaga-Helia University of Applied Sciences (ONGOING)",
+        {name: "Haaga-Helia University of Applied Sciences 2020 - (2022)",
         bullets: [
-            "Bachelor of Business Information Technology (2020 -> )",
-            "Software Production"
+            "Bachelor of Business Information Technology ",
+            "Software Engineering"
         ]},
         {name: "Taitotalo (2020 - 2021)",
         bullets: [
@@ -15,7 +15,7 @@ const school = {
         bullets: [
             "Master of Science (physics)",
             "Master's thesis: The use of Broad Ion Beam (BIB) in microanalytical sample preparation",
-            "Main Subject: Materials Science",
+            "Main Subject: Physics/Materials Science",
             "Secondary Subjects: Mathemathics, Chemisty, IT"
         ]},
         {name: "Kastu High School, Turku (2002 - 2005)",
