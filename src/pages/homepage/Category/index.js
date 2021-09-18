@@ -1,7 +1,8 @@
 import React from 'react';
 
-const CategoryBox = (content) => {
-    const { header, listItems, url } = content.content
+const CategoryBox = (data) => {
+    const { align } = data.data
+    const { header, listItems, url } = data.data.content
     const Items = () => {
         const listContents = listItems.map((listItem, i) => {
             const item = listItem.item
@@ -23,7 +24,7 @@ const CategoryBox = (content) => {
 
     return (
         <a href={url} className="a_ref">
-                <div className="category-container">
+                <div id={align} className="category-container">
                     <div className="header-background">
                         <div className="category-header">{header}</div>
                     </div>

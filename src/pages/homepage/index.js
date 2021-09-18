@@ -8,14 +8,28 @@ import { contact } from './Contact/ContactContent'
 
 import jere from '../../images/Jere.jpg'
 
+const alignments = {
+  left:{
+    content: work,
+    align:"section-left"
+  },
+  center:{
+    content: education,
+    align:"section-center"
+  },
+  right:{
+    content: skills,
+    align:"section-right"
+  }
+}
 const Homepage = () => {
 
   return (
     <main>
       <div className="category-section"> 
-        <CategoryBox content={work} />
-        <CategoryBox content={education} />
-        <CategoryBox content={skills} />
+        <CategoryBox data={alignments.left}/>
+        <CategoryBox data={alignments.center}/>
+        <CategoryBox data={alignments.right}/>
       </div>
       <RecommendationBox />
       <ContactBox content={contact} />
