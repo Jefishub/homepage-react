@@ -80,6 +80,10 @@ color: white;
   margin: 0px 0px 0px 0px;
 }
 
+.overlaytext ul {
+  margin: 0px 0px 0px 0px;
+}
+
 .category-header {
 font-size: 2em;
 color: white;
@@ -174,7 +178,7 @@ footer p{
   margin-bottom: 0;
 }
 
-/* RESPONSIVE MEDIA SCETION 768px MAX */
+/* RESPONSIVE MEDIA SECTION 768px MAX */
 
 @media (max-width: 768px)
 {

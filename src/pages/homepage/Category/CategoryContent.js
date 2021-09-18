@@ -4,7 +4,7 @@ const education = {
     listItems: [
         {item: "Haaga-Helia University of Applied Sciences, 2020 - (2022)", bullets: ["Bachelor of Business Administration (Ongoing)"]},
         {item: "Taitotalo, 2020 - 2021", bullets: ["Vocational Qualification"]},
-        {item: "University of Turku, 2005 - 2012", bullets: ["Master of Physics"]}
+        {item: "University of Turku, 2005 - 2012", bullets: ["Master of Science (Physics/Materials Science)"]}
     ]
   }
 
