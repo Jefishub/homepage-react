@@ -6,7 +6,7 @@ function ProfileBox() {
     const { profileText, header, links } = profile
 
     const contactInformation = links.map((item,i) => {
-        return item.icon
+        return <div key={i} style={{marginRight:"4px"}}>{item.icon}</div>
     })
 
     return (
