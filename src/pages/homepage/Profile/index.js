@@ -2,7 +2,7 @@ import React from 'react';
 import jere from '../../../images/Jere.jpg'
 import { profile } from './ProfileContent'
 
-function ProfileBox() {
+const ProfileBox = () => {
     const { profileText, header, links } = profile
 
     const contactInformation = links.map((item,i) => {

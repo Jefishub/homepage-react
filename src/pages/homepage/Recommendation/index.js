@@ -2,7 +2,7 @@ import React from 'react';
 
 import { recommendations } from './RecommendationContent';
 
-function RecommendationBox() {
+const RecommendationBox = () => {
     const content = recommendations.map((recommendation, i) => {
         const { url, signature, quote } = recommendation
         return (

@@ -5,18 +5,18 @@ import ContactBox from './Profile'
 
 import { education, skills, work } from './Category/CategoryContent';
 
-const alignments = {
-  left:{
+const categorySection = {
+  left: {
     content: work,
-    align:"section-left"
+    align: "section-left"
   },
-  center:{
+  center: {
     content: education,
-    align:"section-center"
+    align: "section-center"
   },
-  right:{
+  right: {
     content: skills,
-    align:"section-right"
+    align: "section-right"
   }
 }
 
@@ -24,12 +24,12 @@ const Homepage = () => {
 
   return (
     <main>
-      <div className="category-section"> 
-        <CategoryBox data={alignments.left}/>
-        <CategoryBox data={alignments.center}/>
-        <CategoryBox data={alignments.right}/>
+      <div className="category-section">
+        <CategoryBox data={categorySection.left} />
+        <CategoryBox data={categorySection.center} />
+        <CategoryBox data={categorySection.right} />
       </div>
-      <ContactBox/>
+      <ContactBox />
       <RecommendationBox />
     </main>
   );
